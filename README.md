@@ -27,5 +27,5 @@ fab build
 ```
 npm install http-server -g
 ```
-[http-server usage](https://www.npmjs.com/package/http-server "悬停显示")
+[http-server usage]: https://www.npmjs.com/package/http-server
 
