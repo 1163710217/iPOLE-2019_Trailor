@@ -4,16 +4,16 @@ Steps to deploy:
 1) Download repo and $cd iPOLE
 
 2) Install virtualenv, virtualenvwrapper, MongoDB, Node.js, LESS and UglifyJS.
-   ---------------------------------------------
-   || pip install virtualenv
-   ||
-   || # Read the docs for complete installation
-   || pip install virtualenvwrapper
-   ||
-   || npm install less -g
-   ||
-   || npm install uglify-js -g
-   ----------------------------------------------
+---------------------------------------------
+|| pip install virtualenv
+||
+|| # Read the docs for complete installation
+|| pip install virtualenvwrapper
+||
+|| npm install less -g
+||
+|| npm install uglify-js -g
+----------------------------------------------
 
 3) Startup virtual environment and install dependencies
    ----------------------------------------------
