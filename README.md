@@ -1,5 +1,6 @@
+<head>
 Steps to deploy:
-
+   
 1) Download repo and $cd iPOLE
 
 2) Install virtualenv, virtualenvwrapper, MongoDB, Node.js, LESS and UglifyJS.
@@ -31,4 +32,4 @@ Steps to deploy:
    || npm install http-server -g
    || # see usage: https://www.npmjs.com/package/http-server
    ----------------------------------------------
-  
+ </head>
