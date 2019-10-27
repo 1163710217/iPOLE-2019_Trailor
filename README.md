@@ -1,4 +1,4 @@
-# Steps to deploy:
+# Steps to deploy
    
 1.Download repo and $cd iPOLE
 
@@ -27,5 +27,5 @@ fab build
 ```
 npm install http-server -g
 ```
-[http-server usage]: https://www.npmjs.com/package/http-server
+[http-server usage](https://www.npmjs.com/package/http-server, "http-server")
 
