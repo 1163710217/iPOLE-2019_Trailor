@@ -14,6 +14,7 @@ Python2.7.x recommended
 `pip install virtualenv`
 
 `# Read the docs for complete installation`
+
 `pip install virtualenvwrapper`
 
 `npm install less -g`
@@ -23,12 +24,15 @@ Python2.7.x recommended
 ### 3) Install requirments
 
 `# Create the virtual environemnt`
+
 `virtualenv storymapjs`
 
 `# Activate the virtual environemnt`
+
 `source storymapjs/bin/activate`
 
 `# Install python requirements`
+
 `pip install -r requirements.txt`
 
 `npm i -g http-server`
