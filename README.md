@@ -36,9 +36,11 @@ Python2.7.x recommended
 ### 4) Run server
 
 `# Very importent, remember to run every time before starting server`
+
 `fab build`
 
 `# Run the website on http://localhost:8080/`
+
 `http-server`
 
 ### 5) Open you browser and visit http://localhost:8080/ :)
