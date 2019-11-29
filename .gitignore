@@ -46,3 +46,4 @@ dist
 #################
 *_local.py
 core/settings/site.py
+fablib/
