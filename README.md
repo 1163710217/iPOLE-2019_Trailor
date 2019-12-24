@@ -49,3 +49,6 @@ Python2.7.x recommended
 
 ### 5) Open you browser and visit http://localhost:8080/ :)
  
+### 6) Some icons can't be uploaded directly, find them in source.rar
+
+Find source.rar in root path. Unzip it and move folder "source" to /iPOLE/
