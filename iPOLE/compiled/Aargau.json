@@ -1,0 +1,139 @@
+
+{
+	"storymap":{
+		"test": "test",
+		"slides": [
+			{
+				"type": 					"overview", 
+
+				"date": 					"1835",
+				"location": {
+					"lat": 				47.0833,
+					"lon": 				8.000,
+					"name": 				"Aargau, Switzerland",
+					"zoom": 				11,
+					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Welcome to Aargau",
+					"text": 				"Aargau-canton in northern Switzerland bordering on Germany; capital Aarau area 542 square miles (1409 square kilometers), population 550,900."
+				},
+				"media": {
+					"url": 				"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575105914915&di=b92c562bfc00665339dbca6e2153621b&imgtype=0&src=http%3A%2F%2Fassets.catawiki.nl%2Fassets%2F2017%2F3%2F23%2Fd%2F1%2F3%2Fd134c4d8-220a-4a86-97e9-50807493c24f.jpg",
+					"credit":				"Argau",
+					"caption":			"switzerland, aargau"
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"background": {			
+					"url": 				null,
+					"color": 				null,
+					"opacity": 			50
+				},
+				"date": 					null,
+				"location": {
+                    "lat":                 47.0833,
+                    "lon":                 8.000,
+					"zoom": 				11,
+					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Aargau, Switzerland",
+					"text": 				"This is Aargau! A place for living and working"
+				},
+				"media": {
+					"url": 				"https://www.youtube.com/watch?v=Tc_TjVzFELg",
+					"credit":				"",
+					"caption":			"A place looking forward to your coming"
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"date": 					"1835",
+				"location": {
+					"lat": 				47.479698,
+					"lon": 				8.302960,
+					"name": 				"ABB Schweiz AG",
+					"zoom": 				12,
+					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"ABB Schweiz AG",
+					"text": 				"ABB is a global leader in power and automation technologies, providing a broad range of products and solutions to improve performance and reduce environmental impact for its customers."
+				},
+				"media": {
+					"url": 				"https://www.youtube.com/watch?v=-30SkrYjdcI",
+					"credit":				"",
+					"caption":			"Kickstart Your Career – ABB’s LEAD Early Career Program"
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"date": 					"1839",
+				"location": {
+					"lat": 				47.435940,
+					"lon": 				8.166502,
+					"name": 				"LafargeHolcim",
+					"zoom": 				12,
+					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"LafargeHolcim",
+					"text": 				"We are global leader in building materials and solutions. With about 75,000 employees in around 80 countries, we operate four businesses segments: Cement, Aggregates, Ready-Mix Concrete and Solutions & Products."
+				},
+				"media": {
+					"url": 				"https://www.youtube.com/watch?v=4WDfvs8tYpA",
+					"credit":				"",
+					"caption":			"We Are LafargeHolcim"
+				}
+			},
+            {
+                "uniqueid":                 "",
+                "date":                     "1839",
+                "location": {
+                    "lat":                 47.397616,
+                    "lon":                 8.068815,
+                    "name":                 "Swisslog Company",
+                    "zoom":                 12,
+                    "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+                    "line":                 true
+                },
+                "text": {
+                    "headline":             "Swisslog Company",
+                    "text":                 "Swisslog is a member of the KUKA Group, a leading global supplier of intelligent automation solution."
+                },
+                "media": {
+                    "url":                 "https://www.youtube.com/watch?v=rs15emNHeT8",
+                    "credit":                "",
+                    "caption":            "Swisslog Brings Innovation to ProMat"
+                }
+            },
+            {
+                "uniqueid":                 "",
+                "date":                     "1839",
+                "location": {
+                    "lat":                 47.478803,
+                    "lon":                 8.213687,
+                    "name":                 "FHNW Brungg-Windisch",
+                    "zoom":                 12,
+                    "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+                    "line":                 true
+                },
+                "text": {
+                    "headline":             "FHNW Brungg-Windisch",
+                    "text":                 "Approximately 4,500 people work, study and research at Campus Brugg-Windisch. The School of Education, Engineering and Business  offer a wide range of courses in basic and further education. For leisure and enjoyment, a variety of cultural and sports events are available for employees and students. The campus features a library, a restaurant, a bar and a café and is also a very popular event location for external clients from all over Switzerland."
+                },
+                "media": {
+                    "url":                 "https://www.youtube.com/watch?v=rIpm4Sf2ykQ",
+                    "credit":                "",
+                    "caption":            "This is my impression of FHNW"
+                }
+            }
+		]
+	}
+}
