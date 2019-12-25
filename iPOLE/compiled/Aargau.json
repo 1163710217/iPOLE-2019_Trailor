@@ -8,10 +8,10 @@
 
 				"date": 					"1835",
 				"location": {
-					"lat": 				47.0833,
-					"lon": 				8.000,
+					"lat": 				    47.0833,
+					"lon": 				    8.000,
 					"name": 				"Aargau, Switzerland",
-					"zoom": 				11,
+					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -20,23 +20,23 @@
 					"text": 				"Aargau-canton in northern Switzerland bordering on Germany; capital Aarau area 542 square miles (1409 square kilometers), population 550,900."
 				},
 				"media": {
-					"url": 				"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575105914915&di=b92c562bfc00665339dbca6e2153621b&imgtype=0&src=http%3A%2F%2Fassets.catawiki.nl%2Fassets%2F2017%2F3%2F23%2Fd%2F1%2F3%2Fd134c4d8-220a-4a86-97e9-50807493c24f.jpg",
+					"url": 					"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575105914915&di=b92c562bfc00665339dbca6e2153621b&imgtype=0&src=http%3A%2F%2Fassets.catawiki.nl%2Fassets%2F2017%2F3%2F23%2Fd%2F1%2F3%2Fd134c4d8-220a-4a86-97e9-50807493c24f.jpg",
 					"credit":				"Argau",
-					"caption":			"switzerland, aargau"
+					"caption":				"switzerland, aargau"
 				}
 			},
 			{
 				"uniqueid": 				"",
 				"background": {			
-					"url": 				null,
+					"url": 				    null,
 					"color": 				null,
-					"opacity": 			50
+					"opacity": 			    50
 				},
 				"date": 					null,
 				"location": {
-                    "lat":                 47.0833,
-                    "lon":                 8.000,
-					"zoom": 				11,
+                    "lat":                  47.0833,
+                    "lon":                  8.000,
+					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -57,7 +57,7 @@
 					"lat": 				47.479698,
 					"lon": 				8.302960,
 					"name": 				"ABB Schweiz AG",
-					"zoom": 				12,
+					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -78,7 +78,7 @@
 					"lat": 				47.435940,
 					"lon": 				8.166502,
 					"name": 				"LafargeHolcim",
-					"zoom": 				12,
+					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -99,7 +99,7 @@
                     "lat":                 47.397616,
                     "lon":                 8.068815,
                     "name":                 "Swisslog Company",
-                    "zoom":                 12,
+                    "zoom":                 20,
                     "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
                     "line":                 true
                 },
@@ -120,7 +120,7 @@
                     "lat":                 47.478803,
                     "lon":                 8.213687,
                     "name":                 "FHNW Brungg-Windisch",
-                    "zoom":                 12,
+                    "zoom":                 20,
                     "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
                     "line":                 true
                 },

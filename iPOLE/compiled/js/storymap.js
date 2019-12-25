@@ -7318,6 +7318,7 @@ VCO.StorySlider = VCO.Class.extend({
 		if ((this.current_slide +1) < (this._slides.length)) {
 			this.goTo(this.current_slide +1);
 		} else {
+			this.current_slide = 0;
 			this.goTo(this.current_slide);
 		}
 	},
@@ -16476,15 +16477,15 @@ VCO.Map.Leaflet = VCO.Map.extend({
 		
 		this._tile_layer_mini = this._createTileLayer(this.options.map_type);
 		this._mini_map = new L.Control.MiniMap(this._tile_layer_mini, {
-			width: 				150,
+			width: 				100,
 			height: 			100,
 			position: 			"topleft",
 			bounds_array: 		this.bounds_array,
 			zoomLevelFixed: 	this.zoom_min_max.min,
 			zoomAnimation: 		true,
 			aimingRectOptions: 	{
-				fillColor: 		"#FFFFFF",
-				color: 			"#FFFFFF",
+				fillColor: 		"#0033ff",
+				color: 			"#0033ff",
 				opacity: 		0.4,
 				weight: 		1,
 				stroke: 		true
@@ -16584,14 +16585,18 @@ VCO.Map.Leaflet = VCO.Map.extend({
 		// Set Tiles
 		switch(_map_type_arr[0]) {
 			case 'mapbox':
-				var mapbox_name = _map_type_arr[1] || 'nuknightlab.hif6ioi4';
+				//var mapbox_name = _map_type_arr[1] || 'nuknightlab.hif6ioi4';
 				_options.subdomains 	= 'abcd';
 				_options.attribution 	= _attribution_knightlab + "<div class='mapbox-maplogo'></div><a href='https://www.mapbox.com/about/maps/' target='_blank'>© Mapbox © OpenStreetMap</a>";
-				_tilelayer = new L.TileLayer("https://{s}.tiles.mapbox.com/v2/" + mapbox_name + "/{z}/{x}/{y}.png", _options);
+				//_tilelayer = new L.TileLayer("https://{s}.tiles.mapbox.com/v2/" + mapbox_name + "/{z}/{x}/{y}.png", _options);
+				_tilelayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+					maxZoom: 30,
+					id: 'mapbox.streets'//'mapbox.satellite'
+				});
 				break;
 			case 'stamen':
 				_tilelayer = new L.StamenTileLayer(_map_type_arr[1] || 'toner-lite', _options);
-				this._map.getContainer().style.backgroundColor = "#FFFFFF";
+				this._map.getContainer().style.backgroundColor = "#d9d9d9";
 				break;
 			case 'zoomify':
 				_options.width			= this.options.zoomify.width;
@@ -16791,6 +16796,7 @@ VCO.Map.Leaflet = VCO.Map.extend({
 		return new L.Polyline([], {
 			clickable: false,
 			color: 		this.options.line_color,
+			weight: 	this.options.line_weight,
 			weight: 	this.options.line_weight,
 			opacity: 	this.options.line_opacity,
 			dashArray: 	this.options.line_dash,
@@ -17388,7 +17394,7 @@ VCO.StoryMap = VCO.Class.extend({
 			// interaction
 			dragging: 				true,
 			trackResize: 			true,
-			map_type: 				"stamen:toner-lite",
+			map_type: 				"mapbox",//"osm",//"stamen:toner-lite",
 			map_mini: 				true,
 			map_subdomains: 		"",
 			map_as_image: 			false,
@@ -17414,7 +17420,7 @@ VCO.StoryMap = VCO.Class.extend({
 			line_color: 			"#c34528", //"#DA0000",
 			line_color_inactive: 	"#CCC",
 			line_join: 				"miter",
-			line_weight: 			3,
+			line_weight: 			0,
 			line_opacity: 			0.80,
 			line_dash: 				"5,5",
 			show_lines: 			true,
