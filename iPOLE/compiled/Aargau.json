@@ -8,8 +8,8 @@
 
 				"date": 					"1835",
 				"location": {
-					"lat": 				    47.0833,
-					"lon": 				    8.000,
+					"lat": 				    47.130,
+					"lon": 				    8.155,
 					"name": 				"Aargau, Switzerland",
 					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
@@ -34,8 +34,8 @@
 				},
 				"date": 					null,
 				"location": {
-                    "lat":                  47.0833,
-                    "lon":                  8.000,
+                    "lat":                  47.130,
+                    "lon":                  8.155,
 					"zoom": 				20,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
