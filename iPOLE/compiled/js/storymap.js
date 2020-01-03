@@ -15026,7 +15026,7 @@ L.Control.MiniMap = L.Control.extend({
     options: {
         position: 'bottomright',
         toggleDisplay: false,
-        zoomLevelOffset: -5,
+        zoomLevelOffset: 0,
         zoomLevelFixed: true,
         zoomAnimation: false,
         autoToggleDisplay: false,
@@ -16585,14 +16585,17 @@ VCO.Map.Leaflet = VCO.Map.extend({
 		// Set Tiles
 		switch(_map_type_arr[0]) {
 			case 'mapbox':
-				//var mapbox_name = _map_type_arr[1] || 'nuknightlab.hif6ioi4';
-				_options.subdomains 	= 'abcd';
-				_options.attribution 	= _attribution_knightlab + "<div class='mapbox-maplogo'></div><a href='https://www.mapbox.com/about/maps/' target='_blank'>© Mapbox © OpenStreetMap</a>";
-				//_tilelayer = new L.TileLayer("https://{s}.tiles.mapbox.com/v2/" + mapbox_name + "/{z}/{x}/{y}.png", _options);
-				_tilelayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiMTE2MzcxMDIxNyIsImEiOiJjazRwNWhrdXMxcWdsM2RtcjN2ZnppNzB5In0.i1PawwJGcZEYyo6dzwZSnw&style=mapbox://styles/mapbox/Streets', {
-					maxZoom: 30,
-					id: 'mapbox.streets',//'mapbox.satellite'
-					style: 'mapbox://styles/1163710217/ck4p6dqz00oxk1cpyiixgecld'
+				_tilelayer = L.tileLayer('https://api.mapbox.com/styles/v1/1163710217/ck4p6dqz00oxk1cpyiixgecld/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiMTE2MzcxMDIxNyIsImEiOiJjazRwNWhrdXMxcWdsM2RtcjN2ZnppNzB5In0.i1PawwJGcZEYyo6dzwZSnw', {
+					//https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw
+					//https://api.mapbox.com/styles/v1/kengqiangxia/cj5jbah540hlj2rpgh3xptiek/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2VuZ3FpYW5neGlhIiwiYSI6ImNqNWpiMWZ5ZTIxYzgyd3BrYTN2NDN5aXEifQ.bqY03lR_2LZ0fttPOJ4jyw
+					//https://api.mapbox.com/styles/v1/1163710217/ck4p6dqz00oxk1cpyiixgecld.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiMTE2MzcxMDIxNyIsImEiOiJjazRwNWhrdXMxcWdsM2RtcjN2ZnppNzB5In0.i1PawwJGcZEYyo6dzwZSnw
+					//https://api.mapbox.com/styles/v1/1163710217/ck4p6dqz00oxk1cpyiixgecld.html?fresh=true&title=view&access_token=pk.eyJ1IjoiMTE2MzcxMDIxNyIsImEiOiJjazRwNWhrdXMxcWdsM2RtcjN2ZnppNzB5In0.i1PawwJGcZEYyo6dzwZSnw
+					//https://api.mapbox.com/styles/v1/1163710217/ck4p6dqz00oxk1cpyiixgecld/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiMTE2MzcxMDIxNyIsImEiOiJjazRwNWhrdXMxcWdsM2RtcjN2ZnppNzB5In0.i1PawwJGcZEYyo6dzwZSnw
+				maxZoom: 18,
+				attribution: 	'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+								'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+								'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+				id: 'mapbox.streets'
 				});
 				break;
 			case 'stamen':
@@ -17413,6 +17416,7 @@ VCO.StoryMap = VCO.Class.extend({
 			slide_default_fade: 	"0%", 			// landscape fade
 			menubar_default_y: 		0,
 			path_gfx: 				"gfx",
+			style:                  "mapbox://styles/1163710217/ck4p6dqz00oxk1cpyiixgecld",
 			map_popup: 				true,
 			zoom_distance: 			100,
 			calculate_zoom: 		true,   		// Allow map to determine best zoom level between markers (recommended)
