@@ -8,10 +8,10 @@
 
 				"date": 					"1835",
 				"location": {
-					"lat": 				    47.130,
-					"lon": 				    8.155,
+					"lat": 				    47.324,
+					"lon": 				    7.904,
 					"name": 				"Aargau, Switzerland",
-					"zoom": 				20,
+					"zoom": 				10,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -34,9 +34,9 @@
 				},
 				"date": 					null,
 				"location": {
-                    "lat":                  47.130,
-                    "lon":                  8.155,
-					"zoom": 				20,
+                    "lat":                  47.324,
+                    "lon":                  7.904,
+					"zoom": 				12,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
@@ -45,93 +45,94 @@
 					"text": 				"The canton of Aargau is an attractive and varied place to live and work. The Rhine, Aare and Reuss rivers form its natural borders to the north, west and southeast, respectively. It is urban, yet manageable as well."
 				},
 				"media": {
-					"url": 				"https://www.ag.ch/en/weiteres/portrait/kanton_der_vielfalt/kanton_der_vielfalt.jsp",
-					"credit":			"Sina, vocalist:",
-					"caption":			"\"I am a passionate musician – and a moving force for Aargau. Even when my dialect makes it clear that I am actually from the Valais.\""
+					"url": 					"https://www.youtube.com/watch?v=uLYIszDSGo8",
+					"credit":				"",
+					"caption":				"Wasserschloss by Air"
 				}
 			},
 			{
 				"uniqueid": 				"",
 				"date": 					"1835",
 				"location": {
-					"lat": 				47.479698,
-					"lon": 				8.302960,
+					"lat": 					47.479698,
+					"lon": 					8.302960,
 					"name": 				"ABB Schweiz AG",
-					"zoom": 				20,
+					"zoom": 				12,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
 				"text": {
 					"headline": 			"ABB Schweiz AG",
-					"text": 				"ABB is a global leader in power and automation technologies, providing a broad range of products and solutions to improve performance and reduce environmental impact for its customers."
+					"text": 				"ABB is a global leader in power and automation technologies, providing a broad range of products and solutions to improve performance and reduce environmental impact for its customers. One of the ABB sites is the small town of Baden. It offers you a lot in your working environment. For nature lovers there are numerous local recreation areas, such as the Martinsberg, which invites you to retreat into nature. There is also the possibility to spoil yourself in numerous restaurants or to visit cultural events."
 				},
 				"media": {
-					"url": 				"https://www.youtube.com/watch?v=-30SkrYjdcI",
+					"url": 					"https://www.youtube.com/watch?v=-30SkrYjdcI",
 					"credit":				"",
-					"caption":			"Kickstart Your Career – ABB’s LEAD Early Career Program"
+					"caption":				"Kickstart Your Career – ABB’s LEAD Early Career Program"
 				}
 			},
 			{
 				"uniqueid": 				"",
 				"date": 					"1839",
 				"location": {
-					"lat": 				47.435940,
-					"lon": 				8.166502,
+					"lat": 					47.435940,
+					"lon": 					8.166502,
 					"name": 				"LafargeHolcim",
-					"zoom": 				20,
+					"zoom": 				12,
 					"icon": 				"http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
 					"line": 				true
 				},
 				"text": {
 					"headline": 			"LafargeHolcim",
-					"text": 				"We are global leader in building materials and solutions. With about 75,000 employees in around 80 countries, we operate four businesses segments: Cement, Aggregates, Ready-Mix Concrete and Solutions & Products."
+					"text": 				"We are global leader in building materials and solutions. With about 75,000 employees in around 80 countries, we operate four businesses segments: Cement, Aggregates, Ready-Mix Concrete and Solutions & Products. Lafarge Holcim is based at a beautiful recreational area. Explore the nature of the Aargau with a jogging tour over lunchtime, or let yourself be treated to culinary delights in one of the local restaurants Aarehuus or Burehus."
 				},
 				"media": {
-					"url": 				"https://www.youtube.com/watch?v=4WDfvs8tYpA",
+					"url": 					"https://www.youtube.com/watch?v=4WDfvs8tYpA",
 					"credit":				"",
-					"caption":			"We Are LafargeHolcim"
+					"caption":				"We Are LafargeHolcim"
 				}
 			},
             {
                 "uniqueid":                 "",
                 "date":                     "1839",
                 "location": {
-                    "lat":                 47.397616,
-                    "lon":                 8.068815,
+                    "lat":                  47.397616,
+                    "lon":                  8.068815,
                     "name":                 "Swisslog Company",
-                    "zoom":                 20,
+                    "zoom":                 12,
                     "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
                     "line":                 true
                 },
                 "text": {
                     "headline":             "Swisslog Company",
-                    "text":                 "Swisslog is a member of the KUKA Group, a leading global supplier of intelligent automation solution."
+                    "text":                 "Swisslog is a member of the KUKA Group, a leading global supplier of intelligent automation solution. Swisslog is stationed in Buchs, among other places. It borders on the cantonal capital Aarau. Visit one of the numerous events for culture lovers, take a walk on the river Suhre, or attend a football match at FC Aarau. Or do you prefer American football? The Aargovia Pirates invite you for a visit!"
                 },
                 "media": {
                     "url":                 "https://www.youtube.com/watch?v=rs15emNHeT8",
                     "credit":                "",
-                    "caption":            "Swisslog Brings Innovation to ProMat"
+                    "caption":             "Swisslog Brings Innovation to ProMat"
                 }
             },
             {
-                "uniqueid":                 "",
+				"type": 					"overview",
+                
                 "date":                     "1839",
                 "location": {
-                    "lat":                 47.478803,
-                    "lon":                 8.213687,
-                    "name":                 "FHNW Brungg-Windisch",
-                    "zoom":                 20,
+                    "lat":                  47.478803,
+                    "lon":                  8.213687,
+                    "name":                 "Work Life Aargau",
+                    "zoom":                 10,
                     "icon":                 "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
                     "line":                 true
                 },
                 "text": {
-                    "headline":             "FHNW Brungg-Windisch",
-                    "text":                 "Approximately 4,500 people work, study and research at Campus Brugg-Windisch. The School of Education, Engineering and Business  offer a wide range of courses in basic and further education. For leisure and enjoyment, a variety of cultural and sports events are available for employees and students. The campus features a library, a restaurant, a bar and a café and is also a very popular event location for external clients from all over Switzerland."
+                    "headline":             "Convinced by the Canton of Aargau?",
+                    "text":                 "This is only a selection of numerous innovative and modern companies and their surroundings. Convince yourself and visit the Aargau live! Only 10 min. from Zurich main station!    ----->  <a pref=https://www.ag.ch/de/verwaltung/dvi/wirtschaft_arbeit/aargau_services_neu/fachkraefte_1/work_life_aargau_fuer_aargauer_unternehmen/departement_detailseite_95.jsp>Work Life Aargau</a>"
                 },
                 "media": {
-                    "url":                 "https://www.youtube.com/watch?v=rIpm4Sf2ykQ",
-                    "credit":                "",
-                    "caption":            "This is my impression of FHNW"
+                    "url":                  "https://www.ag.ch/media/kanton_aargau/dvi/bilder_5/awa/aargau_services/fachktraefte/Titelbild_WLA_aus_Prezi_content_small.png",
+                    "credit":               "",
+                    "caption":              ""
                 }
             }
 		]

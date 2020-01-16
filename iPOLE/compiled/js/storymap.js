@@ -15031,8 +15031,8 @@ L.Control.MiniMap = L.Control.extend({
         zoomAnimation: false,
         autoToggleDisplay: false,
 		show_view: true,
-        width: 120,
-        height: 120,
+        width: 150,
+        height: 150,
         aimingRectOptions: {
             color: "#c34528",
             weight: 1,
@@ -15108,13 +15108,13 @@ L.Control.MiniMap = L.Control.extend({
 				fillColor: "#c34528",
 				color: "#FFFFFF",
 				weight:2,
-				radius: 5,
+				radius: 4,
 				fill:true,
 				fillOpacity: 1,
 				stroke:true,
 				clickable: false
 			}).addTo(this._miniMap);
-			this._locationCircle.setRadius(5);
+			this._locationCircle.setRadius(4);
 			
             this._mainMap.on('moveend', this._onMainMapMoved, this);
             this._mainMap.on('move', this._onMainMapMoving, this);
@@ -17419,7 +17419,7 @@ VCO.StoryMap = VCO.Class.extend({
 			style:                  "mapbox://styles/1163710217/ck4p6dqz00oxk1cpyiixgecld",
 			map_popup: 				true,
 			zoom_distance: 			100,
-			calculate_zoom: 		true,   		// Allow map to determine best zoom level between markers (recommended)
+			calculate_zoom: 		false,   		// Allow map to determine best zoom level between markers (recommended)
 			use_custom_markers: 	false,  		// Allow use of custom map marker icons
 			line_follows_path: 		true,   		// Map history path follows default line, if false it will connect previous and current only
 			line_color: 			"#c34528", //"#DA0000",
@@ -17722,12 +17722,12 @@ VCO.StoryMap = VCO.Class.extend({
 			this._map.setMapOffset(-(this.options.width/4), 0);
 			
 			// StorySlider
-			this._el.storyslider.style.top = 0;
+			this._el.storyslider.style.top = 300;
 			this._el.storyslider.style.height = this.options.storyslider_height + "px";
 			
 			this._menubar.updateDisplay(this.options.width, this.options.height, animate);
 			this._map.updateDisplay(this.options.width, this.options.height, animate, d);
-			this._storyslider.updateDisplay(this.options.width/2, this.options.storyslider_height, animate, this.options.layout);
+			this._storyslider.updateDisplay(this.options.width / 2, this.options.storyslider_height, animate, this.options.layout);
 		}
 		
 		
