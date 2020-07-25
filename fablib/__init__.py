@@ -165,7 +165,7 @@ if _config:
                 if 'nothing to commit' in msg:
                     warn(msg)
                     warn('continuing anyway')
-                elif not msg.startswith('[master'):
+                elif not msg.startswith('[main'):
                     abort("Unexpected result: %s" % msg)
             local('git push')
 
